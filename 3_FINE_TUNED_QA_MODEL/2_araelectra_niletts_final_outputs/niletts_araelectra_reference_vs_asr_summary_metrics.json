@@ -1,0 +1,15 @@
+{
+  "model": "ZeyadAhmed/AraElectra-Arabic-SQuADv2-QA",
+  "model_type": "extractive_qa",
+  "reference_em": 0.2876447876447876,
+  "reference_f1": 0.5557779358974736,
+  "asr_em": 0.16216216216216217,
+  "asr_f1": 0.4857671819180413,
+  "em_drop": 0.12548262548262548,
+  "f1_drop": 0.07001075397943218,
+  "asr_wer_mean": 0.11756393013612884,
+  "asr_cer_mean": 0.04121027254249641,
+  "answer_in_asr_exact_rate": 0.5096525096525096,
+  "num_test_qa_pairs": 1554,
+  "num_test_audio_files": 738
+}

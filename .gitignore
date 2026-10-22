@@ -1,0 +1,39 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.cache/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Downloaded and processed datasets
+/NileTTS-dataset/
+/1_ASR/NileTTS-processed-dataset/
+*.arrow
+
+# Model weights and training checkpoints
+pytorch_model*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+training_args.bin
+**/checkpoint-*/
+
+# Generated model archives
+/1_ASR/*.zip
+/3_FINE_TUNED_QA_MODEL/*.zip
+
+# Logs and local editor files
+*.log
+events.out.tfevents.*
+.vscode/
+.DS_Store
+Thumbs.db
